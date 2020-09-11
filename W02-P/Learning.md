@@ -19,6 +19,7 @@ localhost:3307 이라고 포트 번호를 명시해준 후 오류 해결
 https://www.php.net/manual/en/mysqlinfo.api.choosing.php
 
 ##회고
+
 #(+) 웹사이트에 mysql 테이블에 있는 데이터를 조회하고 삽입하는 것을 해볼 수 있어서 새로웠다
 
 #(-) html과 php 문법이나 표기 방식이 아직 익숙하지 않아 공부해야 겠다고 생각했다.
