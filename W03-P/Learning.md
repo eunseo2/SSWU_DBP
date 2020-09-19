@@ -29,4 +29,4 @@ https://www.w3schools.com/tags/tag_form.asp
 
 ### (!) 사용자가 입력한 정보는 신뢰할 수 없다고 생각 한 후 검증하여 DB에 저장해야 된다는 것을 알게 되었다!
 
-# https://youtu.be/6pT5nTamSik
+## 실행영상 https://youtu.be/6pT5nTamSik
