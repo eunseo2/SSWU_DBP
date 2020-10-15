@@ -50,7 +50,7 @@
         }
         th, td {
             padding: 10px;
-            border-bottom: 1px solid #dadada;
+            border-bottom: 1px ;
         }
     </style>
 </head>
