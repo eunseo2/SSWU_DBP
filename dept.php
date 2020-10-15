@@ -60,8 +60,8 @@
     <h2><a href="index.php">직원 관리 시스템</a> | 부서 정보</h2>
     <table>
         <tr>
+            <th>emp_no</th>
             <th>first_name</th>
-            <th>last_name</th>
             <th>dept_name</th>
         </tr>        
         <?= $article ?>
