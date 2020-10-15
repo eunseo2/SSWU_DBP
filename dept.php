@@ -14,7 +14,7 @@
   from dept_emp de
   inner join employees e on e.emp_no=de.emp_no
   inner join departments d on d.dept_no=de.dept_no
-  where e.emp_no='{$filtered_id}'
+  where e.emp_no='{$filtered_number}'
     ";
 
     $result = mysqli_query($link, $query);  
