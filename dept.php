@@ -46,7 +46,7 @@
 
 <body>
     <h2><a href="index.php">직원 관리 시스템</a> | 부서 정보</h2>
-    <table border="1">
+    <table  border = "1" width = "300" height = "130" align = "center">
         <tr>
             <th>emp_no</th>
             <th>first_name</th>
