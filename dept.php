@@ -44,7 +44,6 @@
     <style>
         body {
             font-family: Consolas, monospace;
-            font-family: 12px;
         }
         table {
             width: 100%;
