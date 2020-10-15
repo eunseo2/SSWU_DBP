@@ -21,13 +21,13 @@
     
     $article = '';    
     while($row = mysqli_fetch_array($result)){
-         $article .= '<tr><td>';
+         $article .= '<tr><th>';
         $article .= $row["emp_no"];
-        $article .= '</td><td>';
+        $article .= '</td><th>';
         $article .= $row["first_name"];
-        $article .= '</td><td>';
+        $article .= '</td><th>';
         $article .= $row["dept_name"];
-        $article .= '</td><td>';
+        $article .= '</td><th>';
 
     }
     
