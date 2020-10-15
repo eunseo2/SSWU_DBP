@@ -24,6 +24,14 @@
         <input type="text" name="number" placeholder="number">
         <input type="submit" value="Search">
     </form>
+    <form action="salary_info.php" method="GET">
+        (5) 부서 정보: 
+        <input type="text" name="emp_no" placeholder="emp_no">
+        <input type="submit" value="Search">
+    </form>
+    
+    
+    
     
     
 </body>
