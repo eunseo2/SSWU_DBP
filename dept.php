@@ -6,15 +6,15 @@
         exit();
     }    
 
-    settype($_GET['number'], 'integer');
-    $filtered_number = mysqli_real_escape_string($link, $_GET['number']);
+    settype($_GET['emp_no'], 'integer');
+    $filtered_number = mysqli_real_escape_string($link, $_GET['emp_no']);
     
     $query = "
        select e.emp_no, e.first_name, d.dept_name
   from dept_emp de
   inner join employees e on e.emp_no=de.emp_no
   inner join departments d on d.dept_no=de.dept_no
-  where de.to_date=’9999-01-01’
+  where e.emp_no='{$filtered_id}'
     ";
 
     $result = mysqli_query($link, $query);  
