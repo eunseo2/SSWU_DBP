@@ -23,11 +23,11 @@
     while($row = mysqli_fetch_array($result)){
          $article .= '<tr><th>';
         $article .= $row["emp_no"];
-        $article .= '</td><th>';
+        $article .= '</th><th>';
         $article .= $row["first_name"];
-        $article .= '</td><th>';
+        $article .= '</th><th>';
         $article .= $row["dept_name"];
-        $article .= '</td><th>';
+        $article .= '</th><tr>';
 
     }
     
