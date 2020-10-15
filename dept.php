@@ -46,7 +46,7 @@
             font-family: Consolas, monospace;
         }
         table {
-            width: 100%;
+            width: 50%;
         }
         th, td {
             padding: 10px;
