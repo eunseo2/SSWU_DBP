@@ -41,18 +41,7 @@
 <head>
     <meta charset="utf-8">
     <title>부서 정보</title>
-    <style>
-        body {
-            font-family: Consolas, monospace;
-        }
-        table {
-            width: 50%;
-        }
-        th, td {
-            padding: 10px;
-            border-bottom: 2px solid #dadada;
-        }
-    </style>
+
 </head>
 
 <body>
