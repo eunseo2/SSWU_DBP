@@ -23,16 +23,16 @@ html로 웹사이트를 충분히 바꿀 수 있어 css는 따로 사용하지 �
 ```
 
 # 발견한 정보 소개
-```
-1. 영화정보 검색
 
-![영화 ID](https://user-images.githubusercontent.com/70589857/97725608-b7fae800-1b11-11eb-8036-8bfafdf7c617.PNG)
-
-2. TV프로그램 검색
-![tv-1](https://user-images.githubusercontent.com/70589857/97725210-41f68100-1b11-11eb-9e3a-a48b988159a6.PNG)
-3. 장르별 영화 추천
- 
-```
-
+1. 영화정보 검색(NETFLIX ID로 영화정보 검색)
+![영화 ID](https://user-images.githubusercontent.com/70589857/97726463-93ebd680-1b12-11eb-8756-b1a0936a4e2d.PNG)
+![id-2](https://user-images.githubusercontent.com/70589857/97726600-bc73d080-1b12-11eb-8735-d90145bc27ab.PNG)
+![id-3](https://user-images.githubusercontent.com/70589857/97726920-1b394a00-1b13-11eb-8015-a3d106baa75f.PNG)
+2. TV프로그램 검색 (TV 프로그램 제목으로 영화정보 검색)
+![tv-1](https://user-images.githubusercontent.com/70589857/97726963-242a1b80-1b13-11eb-9d70-f50a762fcdb9.PNG)
+![tv-2](https://user-images.githubusercontent.com/70589857/97726976-2b512980-1b13-11eb-9b1e-ea233a67a639.PNG)
+3. 장르별 영화 추천 ( 장르를 선택하면 30개의 영화를 보여줌)
+![장르1](https://user-images.githubusercontent.com/70589857/97727102-576caa80-1b13-11eb-8d9e-95bd9d9dac89.PNG)
+![장르2](https://user-images.githubusercontent.com/70589857/97727118-60f61280-1b13-11eb-9562-fd6e76fd2ddd.PNG)
 ## 실행영상
 
