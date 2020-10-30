@@ -26,7 +26,7 @@ html로 웹사이트를 충분히 바꿀 수 있어 css는 따로 사용하지 �
 ```
 1. 영화정보 검색
 
-![id-2](https://user-images.githubusercontent.com/70589857/97725428-7cf8b480-1b11-11eb-9c1d-2a40cb27255f.PNG)
+![영화 ID](https://user-images.githubusercontent.com/70589857/97725608-b7fae800-1b11-11eb-8036-8bfafdf7c617.PNG)
 
 2. TV프로그램 검색
 ![tv-1](https://user-images.githubusercontent.com/70589857/97725210-41f68100-1b11-11eb-9e3a-a48b988159a6.PNG)
