@@ -8,9 +8,10 @@ kaggle
 # 문제 발생 + 해결과정
 ```
  php 코드 중 limit을 쓸 때 limit  다음 띄어쓰기가 있어야 함.  
-
- 
 ```
+![join할때](https://user-images.githubusercontent.com/70589857/97781562-b3950480-1bcf-11eb-9239-e7334971efcb.png)
+
+
 
 # 참고할 만한 사이트
 데이터(kaggle)
