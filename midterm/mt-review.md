@@ -13,7 +13,8 @@ kaggle
   이것은 내 생각이었다. join할때는 중복된 컬럼이 없는 것을 나타내야 한다. 중복된 컬럼은 조건절에만 쓸 수 있다. 
   따라서 title 컬럼을 netflix에만 넣고 dertail 테이블에는 넣지 않았다. 
 ```
-<수정전 
+<수정전>
+
 ![join할때](https://user-images.githubusercontent.com/70589857/97781562-b3950480-1bcf-11eb-9239-e7334971efcb.png)
 
 
