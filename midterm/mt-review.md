@@ -17,7 +17,8 @@ kaggle
 
 ![join할때](https://user-images.githubusercontent.com/70589857/97781562-b3950480-1bcf-11eb-9239-e7334971efcb.png)
 
-
+<DB 수정 후>
+![db구조](https://user-images.githubusercontent.com/70589857/97781728-a9bfd100-1bd0-11eb-88f0-89f47cea216e.PNG)
 
 # 참고할 만한 사이트
 데이터(kaggle)
