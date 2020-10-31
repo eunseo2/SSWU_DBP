@@ -2,7 +2,9 @@
 
 # 새로배운내용
 ```
-kaggle
+kaggle에 있는 데이터를 DB에 저장하는 방법
+kaggle에서 데이터 파일을 csv 형식의 파일로 받는다.
+그 파일을 mysql workbench를 이용해 import 시키면 DB에 TABLE로 저장할 수 있다.
 ```
 
 # 문제 발생 + 해결과정
