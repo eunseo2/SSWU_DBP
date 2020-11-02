@@ -38,7 +38,7 @@ html로 웹사이트를 충분히 바꿀 수 있어 css는 따로 사용하지 �
 ![tv-2](https://user-images.githubusercontent.com/70589857/97726976-2b512980-1b13-11eb-9b1e-ea233a67a639.PNG)
 
 3. 장르별 영화 추천 ( 장르를 선택하면 선택한 장르의 30개의 영화를 보여줌)
-![장르1](https://user-images.githubusercontent.com/70589857/97727102-576caa80-1b13-11eb-8d9e-95bd9d9dac89.PNG)
+![장르](https://user-images.githubusercontent.com/70589857/97854387-b8c39200-1d3c-11eb-8edd-37d0c1cc92c7.PNG)
 ![장르2](https://user-images.githubusercontent.com/70589857/97727118-60f61280-1b13-11eb-9562-fd6e76fd2ddd.PNG)
 
 
