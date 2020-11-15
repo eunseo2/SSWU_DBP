@@ -8,15 +8,15 @@
   * 한꺼번에 모두 수행되어야 할 일련의 연산들
   * commit 되거나 rollback 된다.
 
--트랜잭션의 성질
-  원자성 atomicity, 트랜잭션의 연산은 db에 모두 반영되거나 전혀 반영되지 않아야 한다.
-  일관성 consistency, 실행이 성공적으로 완료하면 DB 상태가 일관성있게 변환된다.
-  독립성 isolation, 둘 이상의 트랜잭션이 병행될 경우, 다른 트랜잭션에 끼어들 수 없다.
-  지속성 durability, 트랜잭션이 성공적으로 수행하면 그 결과는 영구적으로 반영되어야 한다.
+* 트랜잭션의 성질
+  * 원자성 atomicity, 트랜잭션의 연산은 db에 모두 반영되거나 전혀 반영되지 않아야 한다.
+  * 일관성 consistency, 실행이 성공적으로 완료하면 DB 상태가 일관성있게 변환된다.
+  * 독립성 isolation, 둘 이상의 트랜잭션이 병행될 경우, 다른 트랜잭션에 끼어들 수 없다.
+  * 지속성 durability, 트랜잭션이 성공적으로 수행하면 그 결과는 영구적으로 반영되어야 한다.
   
--트랜잭션의 상태 
-활동 active -> 부분완료 partially committed -> 완료 committed
-활동 active -> 실패 failed -> 철회 aborted
+* 트랜잭션의 상태 
+ * 활동 active -> 부분완료 partially committed -> 완료 committed
+ * 활동 active -> 실패 failed -> 철회 aborted
 
 
 
