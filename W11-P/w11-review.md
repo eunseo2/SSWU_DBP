@@ -36,6 +36,41 @@ location_id 외래키 이므로 location table의 location_id에 있는 값을 �
 
 ```
 
+# select()
+private void select() {
+		Connection conn = null;
+		PreparedStatement psmt = null;
+		ResultSet rs = null;
+		String sql = "select * from ( select * from DEPARTMENTS order by rownum desc ) where rownum = 1";	
+		
+		// 오라클에 쿼리 전송 및 결과값 반환
+		try {
+			 conn = this.getConnection();
+			 psmt = conn.prepareStatement(sql);
+			 rs = psmt.executeQuery();
+			
+			while(rs.next()) {
+				System.out.print("DEPARTMENT_ID\t" + rs.getInt("DEPARTMENT_ID"));
+				System.out.print("\tDEPARTMENT_NAME: " + rs.getString("DEPARTMENT_NAME"));
+				System.out.println("\tLOCATION_ID: " + rs.getInt("LOCATION_ID"));	
+				
+			}			
+			
+			
+		} catch(SQLException e) {
+			e.printStackTrace();
+		} finally {
+			
+			this.closeAll(conn, psmt, rs);
+		}
+		
+		
+		
+	}
+
+
+
+
 # 참고할 만한 사이트
 오류 해결한 사이트
 https://thebook.io/006977/ch09/01/02-03/
