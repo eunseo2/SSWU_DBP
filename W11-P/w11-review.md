@@ -38,7 +38,7 @@ location_id 외래키 이므로 location table의 location_id에 있는 값을 �
 
 # 실행영상
 
-
+https://www.youtube.com/watch?v=s5e_qwS-ClA
 
 # 참고할 만한 사이트
 오류 해결한 사이트
