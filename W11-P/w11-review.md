@@ -36,38 +36,6 @@ location_id 외래키 이므로 location table의 location_id에 있는 값을 �
 
 ```
 
-# select()
-private void select() {
-		Connection conn = null;
-		PreparedStatement psmt = null;
-		ResultSet rs = null;
-		String sql = "select * from ( select * from DEPARTMENTS order by rownum desc ) where rownum = 1";	
-		
-		// 오라클에 쿼리 전송 및 결과값 반환
-		try {
-			 conn = this.getConnection();
-			 psmt = conn.prepareStatement(sql);
-			 rs = psmt.executeQuery();
-			
-			while(rs.next()) {
-				System.out.print("DEPARTMENT_ID\t" + rs.getInt("DEPARTMENT_ID"));
-				System.out.print("\tDEPARTMENT_NAME: " + rs.getString("DEPARTMENT_NAME"));
-				System.out.println("\tLOCATION_ID: " + rs.getInt("LOCATION_ID"));	
-				
-			}			
-			
-			
-		} catch(SQLException e) {
-			e.printStackTrace();
-		} finally {
-			
-			this.closeAll(conn, psmt, rs);
-		}
-		
-		
-		
-	}
-
 
 
 
@@ -78,10 +46,10 @@ https://thebook.io/006977/ch09/01/02-03/
 
 ## 회고
 ```
-### (+) java와 oracle을 한동안 사용하지 않아 까먹을 거 같았는데 복습할 수 있는 기회가 생겨 좋음!.! 
+### (+) 이론으로 배웠던 트랜잭션을 실습으로 하니까 이해가 바로됬다!
 
-### (-) java를 예전에 배워 기본코드 말고는 기억이 나지 않아 미리 예습 해야겠음.
+### (-) java코드가 어려워서 복습을 해야겠음.
 
-### (!)JDBC 파일은 오라클 설치 시 기본으로 제공되며, jdbc를 이용해 java와 oracle을 연결할 수 있다는 것을 알게 되었음.
+### (!) java는 메소드로 묶을 수 있어서 좋은거 같다!
 ```
 
