@@ -15,8 +15,8 @@
   * 지속성 durability, 트랜잭션이 성공적으로 수행하면 그 결과는 영구적으로 반영되어야 한다.
   
 * 트랜잭션의 상태 
- * 활동 active -> 부분완료 partially committed -> 완료 committed
- * 활동 active -> 실패 failed -> 철회 aborted
+  * 활동 active -> 부분완료 partially committed -> 완료 committed
+  * 활동 active -> 실패 failed -> 철회 aborted
 
 
 
