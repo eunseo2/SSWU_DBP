@@ -36,6 +36,7 @@ location_id 외래키 이므로 location table의 location_id에 있는 값을 �
 
 ```
 
+# 실행영상
 
 
 
@@ -52,4 +53,5 @@ https://thebook.io/006977/ch09/01/02-03/
 
 ### (!) java는 메소드로 묶을 수 있어서 좋은거 같다!
 ```
+
 
