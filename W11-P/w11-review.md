@@ -18,27 +18,27 @@
   * 활동 active -> 부분완료 partially committed -> 완료 committed
   * 활동 active -> 실패 failed -> 철회 aborted
 
+# 리팩토링
+* DB 접속 이후 자원 반납
+ * select, update, insert, delete 할 때 마다 db 연결하고 종료해서, 자원을 반납하자
+ * Connection, Statement, ResultSet 객체를 사용한 뒤 close() 메소드를 호출해서 자원을 반납하기
+ * 반납하지 않으면 DB서버가 해당 SQL문의 결과를 계속 저장하고 있어야 하므로 메모리 낭비 발생
 
 
 # 문제 발생 + 해결과정
 ```
- java+oracle 연동 실습 환경 구축만 하면 되므로 없었음. 
+String sql = "update departments set location_id=100 where department_id = 280";
+SQL 오류: ORA-02291: integrity constraint (HR.DEPT_LOC_FK) violated - parent key not found
+
+location_id 외래키 이므로 location table의 location_id에 있는 값을 써야한다.
+100은 없으므로 오류가 난다.
+
 
 ```
 
 # 참고할 만한 사이트
-
-oracle 
-https://www.oracle.com/tools/downloads/sqldev-downloads.html
-
-SQL DEVELOPER 
-https://www.oracle.com/tools/downloads/sqldev-downloads.html
-
-oracle JDK
-https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
-
-Eclipse IDE for Java Developers
-https://www.eclipse.org/downloads/packages/
+오류 해결한 사이트
+https://thebook.io/006977/ch09/01/02-03/
 
 
 ## 회고
