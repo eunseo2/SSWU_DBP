@@ -2,10 +2,10 @@
 
 # 새로배운내용
 
-# APACHE TOMCAT 설치 및 설정
-# 이클립스에서 톰켓 서버 실행
+APACHE TOMCAT 설치 및 설정
+이클립스에서 톰켓 서버 실행
 
-# JSP 란?
+JSP 란?
 * JSP, Java Server Page
   * HTML 내부에 java 코드를 입력하여, 웹 서버에서 동적으로 웹 브라우저를 관리하는 언어
 *JSP 구동 원리
