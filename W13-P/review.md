@@ -3,7 +3,7 @@
 # 새로배운내용
 
 APACHE TOMCAT 설치 및 설정
-이클립스에서 톰켓 서버 실행
+Eclipse에서 톰켓 서버 실행
 
 JSP 란?
 * JSP, Java Server Page
