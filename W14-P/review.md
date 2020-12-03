@@ -13,16 +13,22 @@ DATABASE -> COLLECTIONS -> DOCUMENTS
 
 
 데이터 삽입
-db.myCollection.insertOne({x:1})
+db.myCollection.insertOne({})
 
 조회
 db.myCollection.find()
 
 수정
-db.myCollection.replaceOne({x:2}, {x:10, y:11})
+db.myCollection.replaceOne({})
 
 데이터 삭제
 db.myCollection.deleteMany({})
+
+Collection 삭제 
+db.myCollection.drop()
+
+db 삭제
+db.dropDatabase()
 
 ```
 
@@ -46,8 +52,8 @@ https://www.mongodb.com/products/compass
 
 ## 회고
 ```
-### (+) JAVA에서 톰캣 서버를 통해 웹 서버를 구축할 수 있어 흥미로웠다
+### (+) mongo DB를 직접 해볼 수 있어서 좋았다!
 
-### (-) java코드가 아직은 익숙하지 않음
+### (-) compass를 이용하지 않으면 보기가 어려움!
 
-### (!) 이클립스 안에서 웹을 미리 볼 수 있는 점이 좋았다!
+### (!) mongodb compass가 gui 환경이 되는 점이 좋았음!
