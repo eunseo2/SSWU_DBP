@@ -52,8 +52,6 @@ X
 
 
 # 참고할 만한 사이트
-몽고DB 다운로드
-https://www.mongodb.com/try/download/community
 MongoDB Compass
 https://www.mongodb.com/products/compass
 
