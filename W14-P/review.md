@@ -48,8 +48,7 @@ X
 ```
 
 # 실행영상
-
-
+https://youtu.be/-TWbGeeRbjs
 
 # 참고할 만한 사이트
 MongoDB Compass
